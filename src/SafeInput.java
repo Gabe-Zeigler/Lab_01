@@ -19,12 +19,6 @@ public class SafeInput
     * @param prompt prompt for the user
     * @return a String response that is not zero length
     */
-    Scanner pipe;
-   public SafeInput(Scanner scanner)
-   {
-       Scanner pipe = scanner;
-
-   }
 
    public static String getNonZeroLenString(Scanner pipe, String prompt)
    {
